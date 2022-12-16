@@ -43,11 +43,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
@@ -58,17 +54,34 @@ Use this section to recap over some of your major learnings while working throug
 To see how you can add code snippets, see below:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<div class="bigcontainer">
+    <div class="container">
+      <div class="imgwrap">
+        <img src="./images/image-qr-code.png" alt="image of a qr code n dat">
+      </div>
+      <h3>Improve your front-end skills by building projects</h3>
+
+      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </div>
+  </div>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 320px;
+    margin: auto;
+    text-align: center;
+    background: hsl(0, 0%, 100%);
+    padding: 12px;
+    border-radius: 8px;
+
 }
 ```
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+pain
 ```
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.

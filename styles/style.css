@@ -4,13 +4,58 @@
     box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+body {
+    background: #d6e2f0;
+    font-family: 'Outfit', sans-serif;
+    ;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+.bigcontainer {
+    height: 100vh;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+
 .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 320px;
+    margin: auto;
+    text-align: center;
+    background: hsl(0, 0%, 100%);
+    padding: 12px;
+    border-radius: 8px;
+
 }
 
+.container p {
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
+
+.container h3 {
+    /* font-size: 15px; */
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+/* .imgwrap {
+    padding: 12px;
+} */
+
 img {
-    width: 360px;
+    width: 280px;
+    /* padding: 14px; */
+    margin-bottom: 12px;
 }
